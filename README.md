@@ -1,5 +1,9 @@
 # ubuntu-setup
 
+## Add docker engine
+- https://docs.docker.com/engine/install/ubuntu/
+- https://docs.docker.com/engine/install/linux-postinstall/
+
 ## Add "open in code" to nautilus
 - Checkout https://github.com/harry-cpp/code-nautilus
 - Modify:  
