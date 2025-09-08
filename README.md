@@ -1,5 +1,16 @@
 # ubuntu-setup
 
+## Add SSH key
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
+# Add to github
+
+ssh -T git@github.com
+```
+
 ## Add docker engine
 - https://docs.docker.com/engine/install/ubuntu/
 - https://docs.docker.com/engine/install/linux-postinstall/
