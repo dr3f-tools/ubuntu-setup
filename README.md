@@ -1,5 +1,13 @@
 # ubuntu-setup
 
+## Git
+```
+sudo apt install -y git
+git config --global core.editor "code --wait"
+git config --global user.email "myemail"
+git config --global user.name dr3f
+```
+
 ## Add SSH key
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
